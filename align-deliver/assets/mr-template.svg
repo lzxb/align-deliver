@@ -13,7 +13,7 @@
     <text x="105" y="80" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="500" fill="#3C3489" font-family="STHeiti" style="fill:#3C3489;font-size:14px;font-weight:500;font-family:STHeiti">目标</text>
   </g>
   <rect x="180" y="58" width="460" height="44" rx="8" stroke-width="0.5" fill="#F7F6F2" stroke="#B4B2A9" style="stroke:#B4B2A9;stroke-width:0.5;fill:#F7F6F2;stroke-opacity:1" stroke-opacity="1" />
-  <text x="196" y="80" text-anchor="start" dominant-baseline="central" font-size="14px" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:14px;font-family:STHeiti">/goal 原文 + 完成标准</text>
+  <text x="196" y="80" text-anchor="start" dominant-baseline="central" font-size="14px" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:14px;font-family:STHeiti">已确认目标原文 + 完成标准</text>
   <g>
     <rect x="40" y="112" width="130" height="214" rx="8" stroke-width="0.5" fill="#EEEDFE" stroke="#534AB7" style="stroke:#534AB7;stroke-width:0.5;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
     <text x="105" y="209" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="500" fill="#3C3489" font-family="STHeiti" style="fill:#3C3489;font-size:14px;font-weight:500;font-family:STHeiti">核心原则</text>
@@ -66,7 +66,7 @@
   <text x="260" y="555" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">高风险部分</text>
   <text x="420" y="555" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">只含 C</text>
   <text x="556" y="555" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">待做</text>
-  <text x="196" y="587" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">依赖：上一批的 MR（如 !123），不依赖写“无”</text>
+  <text x="196" y="587" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">依赖：前序合并请求链接，不依赖写“无”</text>
   <g>
     <rect x="40" y="614" width="130" height="100" rx="8" stroke-width="0.5" fill="#FBEAF0" stroke="#993556" style="stroke:#993556;stroke-width:0.5;fill:#FBEAF0;stroke-opacity:1" stroke-opacity="1" />
     <text x="105" y="664" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="500" fill="#72243E" font-family="STHeiti" style="fill:#72243E;font-size:14px;font-weight:500;font-family:STHeiti">决策说明</text>
@@ -138,13 +138,13 @@
   <text x="560" y="914" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">当前提交</text>
   <text x="196" y="958" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">CI：通过 / 待运行 / 运行中 / 失败 / 查询未知。</text>
   <text x="196" y="980" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">上游故障附证据；待运行、运行中或未知均不记为通过。</text>
-  <text x="196" y="1002" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">截图（可选）：标注轮次与 Chrome / 模拟器 / 真机。</text>
+  <text x="196" y="1002" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">截图（可选）：按验收需要提供，并标注对应轮次。</text>
   <rect x="196" y="1018" width="130" height="40" rx="6" fill="none" stroke="#B4B2A9" stroke-width="0.6" stroke-dasharray="4 4" />
-  <text x="261" y="1038" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">Chrome 截图</text>
+  <text x="261" y="1038" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">改动前截图</text>
   <rect x="345" y="1018" width="130" height="40" rx="6" fill="none" stroke="#B4B2A9" stroke-width="0.6" stroke-dasharray="4 4" />
-  <text x="410" y="1038" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">模拟器截图</text>
+  <text x="410" y="1038" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">改动后截图</text>
   <rect x="494" y="1018" width="130" height="40" rx="6" fill="none" stroke="#B4B2A9" stroke-width="0.6" stroke-dasharray="4 4" />
-  <text x="559" y="1038" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">真机截图</text>
+  <text x="559" y="1038" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">验收截图</text>
   <rect x="40" y="1084" width="130" height="448" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.6" />
   <rect x="180" y="1084" width="460" height="448" rx="8" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="0.6" />
   <text x="105" y="1298.0" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#0F6E56">后续维护</text>

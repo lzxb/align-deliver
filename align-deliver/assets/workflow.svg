@@ -14,7 +14,7 @@
   <text x="177.5" y="149.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">最小示例 / AI 先说理解</text>
   <rect x="325" y="102" width="235" height="68" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1" style="stroke:#534AB7;stroke-width:1;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
   <text x="442.5" y="125.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">B · 目标</text>
-  <text x="442.5" y="149.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">/goal / 可验证完成标准</text>
+  <text x="442.5" y="149.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">用户确认的目标 / 完成标准</text>
   <rect x="590" y="102" width="235" height="68" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1" style="stroke:#534AB7;stroke-width:1;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
   <text x="707.5" y="125.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">C · 核心原则</text>
   <text x="707.5" y="149.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">读取并按编号复述</text>
@@ -325,14 +325,14 @@
   <rect x="760" y="3430" width="325" height="100" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.1" />
   <text x="922.5" y="3456" text-anchor="middle" dominant-baseline="central" font-size="15px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">YG · 允许时段且取得执行权？</text>
   <text x="922.5" y="3480" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">工作日允许时段，含 21:00</text>
-  <text x="922.5" y="3504" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">获得任务级互斥后才进入 V</text>
+  <text x="922.5" y="3504" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">确认本轮可执行，不并发修改才进入 V</text>
   <path d="M 922 3360 V 3430" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
   <path d="M 1085 3480 H 1127 V 2150 H 1000 V 2170" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
   <rect x="991.5" y="3388" width="77" height="20" fill="white" />
   <text x="1030" y="3398" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">是：回 V</text>
   <rect x="760" y="3600" width="325" height="90" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1.1" />
   <text x="922.5" y="3621" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">Y0 · 保留任务，只结束本轮</text>
-  <text x="922.5" y="3645" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">时段外 / 未获互斥：不做远程维护</text>
+  <text x="922.5" y="3645" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">时段外 / 本轮不可执行：不做远程维护</text>
   <text x="922.5" y="3669" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">下次触发再检查，不取消调度</text>
   <path d="M 922 3530 V 3600" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
   <rect x="931.5" y="3554" width="25" height="20" fill="white" />
@@ -344,7 +344,7 @@
   <path d="M 1050 982 H 1148 V 2138 H 1040 V 2170" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
   <rect x="736.5" y="2116" width="259" height="20" fill="white" />
   <text x="866" y="2126" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">R：已有 MR 且暂无独立工作 → V</text>
-  <text x="60" y="3770" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">全程共用同一任务台账与执行互斥；远程写入前保存意图，恢复先核对服务器实际结果。</text>
+  <text x="60" y="3770" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">全程共用持久台账，避免并发修改；写入前保存意图，恢复先核对实际结果。</text>
   <text x="60" y="3802" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有可推进工作就继续；待定原则和未知写入都保留，不能删范围制造交付或终态。</text>
   <text x="40" y="3875" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">全程：记录每轮验收与修改文件数；证据标注实测 / 读代码 / 推断。</text>
   <text x="40" y="3910" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">同一任务，一个调度，全部 MR；单个结束不停，全部核实且无遗漏才停止维护。</text>

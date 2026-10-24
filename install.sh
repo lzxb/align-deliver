@@ -14,7 +14,7 @@ done
 temporary_dir=$(mktemp -d)
 trap 'rm -rf "$temporary_dir"' EXIT HUP INT TERM
 curl --fail --location --retry 3 --connect-timeout 20 --max-time 180 \
-  'https://github.com/lzxb/align-deliver/releases/download/v2026.10.24-bc853b1/align-deliver-bc853b1.zip' -o "$temporary_dir/skill.zip"
+  'https://github.com/lzxb/align-deliver/releases/download/v2026.10.24-b5622bd/align-deliver-b5622bd.zip' -o "$temporary_dir/skill.zip"
 if command -v sha256sum >/dev/null 2>&1; then
   actual_digest=$(sha256sum "$temporary_dir/skill.zip" | cut -d ' ' -f 1)
 elif command -v shasum >/dev/null 2>&1; then
@@ -23,7 +23,7 @@ else
   printf '%s\n' 'Required: sha256sum or shasum' >&2
   exit 1
 fi
-if [ "$actual_digest" != 'b9f2c783528bd380209124370127b41e09a0debe00174390867587155b7d7557' ]; then
+if [ "$actual_digest" != '9ab83fc43084d10e7f1528fcb47397b389b018271dad278a6d8b46c0422bb4c1' ]; then
   printf '%s\n' 'SHA-256 mismatch; nothing installed.' >&2
   exit 1
 fi
@@ -32,4 +32,4 @@ test -s "$temporary_dir/align-deliver/SKILL.md"
 mkdir -p "$skills_dir"
 mkdir "$destination"
 cp -R "$temporary_dir/align-deliver/." "$destination/"
-printf '%s\n' "Installed align-deliver bc853b1 to $destination"
+printf '%s\n' "Installed align-deliver b5622bd to $destination"

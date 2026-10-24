@@ -1,21 +1,21 @@
 # align-deliver
 
-对齐交付技能的独立公开分发。固定版本：`06968fa4db39012d98e6f6b93a40c7bd1673192c`。
+对齐交付技能的独立公开分发。固定版本：`bc853b194d120a569040d95ea164e5251040eaad`。
 
 先对齐目标和原则，再研发、专家验收与提交 MR；有工作先做，远程失败按检查点恢复，持续维护全部 MR。旧 MR 已终态后的新工作转入新分支与新 MR。
 
 ## 下载
 
-- [完整安装包](https://github.com/lzxb/align-deliver/releases/download/v2026.10.24-06968fa/align-deliver-06968fa.zip)：仅包含 `align-deliver/` 下已验收的 10 个文件。
-- [SHA256SUMS](https://github.com/lzxb/align-deliver/releases/download/v2026.10.24-06968fa/SHA256SUMS)
-- [版本发布页](https://github.com/lzxb/align-deliver/releases/tag/v2026.10.24-06968fa)
+- [完整安装包](https://github.com/lzxb/align-deliver/releases/download/v2026.10.24-bc853b1/align-deliver-bc853b1.zip)：仅包含 `align-deliver/` 下已验收的 10 个文件。
+- [SHA256SUMS](https://github.com/lzxb/align-deliver/releases/download/v2026.10.24-bc853b1/SHA256SUMS)
+- [版本发布页](https://github.com/lzxb/align-deliver/releases/tag/v2026.10.24-bc853b1)
 
 ## macOS / Linux 安装
 
 需要 `curl`、`unzip`，以及 `sha256sum` 或 `shasum`。
 
 ```sh
-curl -fL 'https://github.com/lzxb/align-deliver/releases/download/v2026.10.24-06968fa/install.sh' -o /tmp/install-align-deliver.sh
+curl -fL 'https://github.com/lzxb/align-deliver/releases/download/v2026.10.24-bc853b1/install.sh' -o /tmp/install-align-deliver.sh
 sh /tmp/install-align-deliver.sh
 ```
 
@@ -32,7 +32,7 @@ sh /tmp/install-align-deliver.sh /path/to/skills
 ## 版本校验
 
 ```text
-b8673fba5f45ef91379fa5bb6e7648a40a1f6de12c431251e039237192a57328  align-deliver-06968fa.zip
+b9f2c783528bd380209124370127b41e09a0debe00174390867587155b7d7557  align-deliver-bc853b1.zip
 ```
 
 本仓库分发固定快照；更新不会自动覆盖已安装版本。

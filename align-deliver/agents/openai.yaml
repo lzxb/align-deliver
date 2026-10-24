@@ -1,0 +1,4 @@
+interface:
+  display_name: "对齐交付"
+  short_description: "对齐目标与原则，专家团验收到 0 修改，持续维护全部 MR 至终态"
+  default_prompt: "Use $align-deliver 对齐交付这个编码任务。"

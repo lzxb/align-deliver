@@ -1,0 +1,351 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="3980" viewBox="0 0 1160 3980" role="img">
+  <title>对齐交付完整流程：分支关联、终态后新增交付与全任务持续维护</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#73726C" stroke-width="1.5" style="stroke:#73726C;stroke-width:1.5;fill:none;stroke-opacity:1" stroke-opacity="1" />
+    </marker>
+  </defs>
+  <rect width="1160" height="3980" fill="#FFFFFF" style="fill:#FFFFFF" />
+  <text x="40" y="30" text-anchor="start" dominant-baseline="middle" font-size="21px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:21px;font-weight:600;font-family:STHeiti">对齐交付 · 完整工作流</text>
+  <rect x="24" y="58" width="1112" height="230" rx="14" fill="none" stroke="#B4B2A9" stroke-dasharray="5 5" stroke-width="1" style="stroke:#B4B2A9;stroke-width:1;stroke-dasharray:5 5;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="45" y="81" text-anchor="start" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">1 · 初始对齐：用户定目标、原则和开工；AI 定原则内细节</text>
+  <rect x="60" y="102" width="235" height="68" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1" style="stroke:#534AB7;stroke-width:1;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
+  <text x="177.5" y="125.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">A · 复述理解</text>
+  <text x="177.5" y="149.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">最小示例 / AI 先说理解</text>
+  <rect x="325" y="102" width="235" height="68" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1" style="stroke:#534AB7;stroke-width:1;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
+  <text x="442.5" y="125.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">B · 目标</text>
+  <text x="442.5" y="149.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">/goal / 可验证完成标准</text>
+  <rect x="590" y="102" width="235" height="68" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1" style="stroke:#534AB7;stroke-width:1;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
+  <text x="707.5" y="125.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">C · 核心原则</text>
+  <text x="707.5" y="149.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">读取并按编号复述</text>
+  <rect x="855" y="102" width="235" height="68" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1" style="stroke:#534AB7;stroke-width:1;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
+  <text x="972.5" y="125.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">D · 任务原则</text>
+  <text x="972.5" y="149.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">围绕目标讨论</text>
+  <path d="M 295 136 H 322" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 560 136 H 587" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 825 136 H 852" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 972 170 V 193 H 710" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <rect x="450" y="196" width="260" height="65" rx="10" fill="#FAECE7" stroke="#993C1D" stroke-width="1" style="stroke:#993C1D;stroke-width:1;fill:#FAECE7;stroke-opacity:1" stroke-opacity="1" />
+  <text x="580.0" y="217.5" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">E · 讨论清楚？</text>
+  <text x="580.0" y="241.5" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">用户说“确认”或“开始”</text>
+  <path d="M 450 228 H 175 V 173" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="300" y="213" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">未确认：回到 A</text>
+  <path d="M 580 261 V 312 H 300 V 335" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <rect x="90" y="335" width="420" height="65" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1" style="stroke:#534AB7;stroke-width:1;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
+  <text x="300.0" y="356.5" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">F · 批次</text>
+  <text x="300.0" y="380.5" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">默认 1 批 / 同步上游 / 独立 worktree</text>
+  <rect x="24" y="420" width="1112" height="590" rx="14" fill="none" stroke="#B4B2A9" stroke-dasharray="5 5" stroke-width="1" style="stroke:#B4B2A9;stroke-width:1;stroke-dasharray:5 5;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="45" y="443" text-anchor="start" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">2 · 本批研发与验收</text>
+  <rect x="90" y="465" width="420" height="70" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1" style="stroke:#0F6E56;stroke-width:1;fill:#E1F5EE;stroke-opacity:1" stroke-opacity="1" />
+  <text x="300.0" y="489.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">G · 研发</text>
+  <text x="300.0" y="513.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">按已确认原则实现 / 修复</text>
+  <path d="M 300 400 V 462" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <rect x="90" y="575" width="420" height="70" rx="10" fill="#FAECE7" stroke="#993C1D" stroke-width="1" style="stroke:#993C1D;stroke-width:1;fill:#FAECE7;stroke-opacity:1" stroke-opacity="1" />
+  <text x="300.0" y="599.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">H · 专家团验收</text>
+  <text x="300.0" y="623.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">逐条对照目标、核心原则与任务原则</text>
+  <path d="M 300 535 V 572" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <rect x="90" y="685" width="420" height="70" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1" style="stroke:#B4B2A9;stroke-width:1;fill:#F7F6F2;stroke-opacity:1" stroke-opacity="1" />
+  <text x="300.0" y="709.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">I · 本轮文件修改数</text>
+  <text x="300.0" y="733.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">大于 0 修复 / 等于 0 继续检查</text>
+  <path d="M 300 645 V 682" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 90 720 H 56 V 500 H 87" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="75" y="661" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">有修改</text>
+  <rect x="90" y="805" width="420" height="88" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1" style="stroke:#B4B2A9;stroke-width:1;fill:#F7F6F2;stroke-opacity:1" stroke-opacity="1" />
+  <text x="300.0" y="827.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">T · 本批全部就绪？</text>
+  <text x="300.0" y="851.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">没有待定原则，且没有未完成工作</text>
+  <text x="300.0" y="875.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">独立部分完成 ≠ 整批完成</text>
+  <path d="M 300 755 V 802" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="340" y="779" text-anchor="middle" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">0 修改</text>
+  <path d="M 90 850 H 72 V 522 H 87" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="79" y="790" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">无待定但有未完成 → 回 G</text>
+  <rect x="700" y="465" width="350" height="70" rx="10" fill="#FAECE7" stroke="#993C1D" stroke-width="1" style="stroke:#993C1D;stroke-width:1;fill:#FAECE7;stroke-opacity:1" stroke-opacity="1" />
+  <text x="875.0" y="489.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">Q · 原则缺失或冲突</text>
+  <text x="875.0" y="513.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">或专家来回修改不收敛</text>
+  <path d="M 510 488 H 697" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 510 610 H 553 V 514 H 697" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <rect x="700" y="575" width="350" height="70" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1" style="stroke:#854F0B;stroke-width:1;fill:#FAEEDA;stroke-opacity:1" stroke-opacity="1" />
+  <text x="875.0" y="599.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">S · 记录待定项与影响范围</text>
+  <text x="875.0" y="623.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">只暂停依赖该原则的部分</text>
+  <path d="M 875 535 V 572" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 510 850 H 580 V 610 H 697" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="585" y="767" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">有待定原则</text>
+  <rect x="700" y="685" width="350" height="70" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1" style="stroke:#B4B2A9;stroke-width:1;fill:#F7F6F2;stroke-opacity:1" stroke-opacity="1" />
+  <text x="875.0" y="709.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">W · 还有可独立推进的工作？</text>
+  <text x="875.0" y="733.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">按已确认目标、原则和依赖判断</text>
+  <path d="M 875 645 V 682" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <rect x="700" y="795" width="350" height="70" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1" style="stroke:#0F6E56;stroke-width:1;fill:#E1F5EE;stroke-opacity:1" stroke-opacity="1" />
+  <text x="875.0" y="819.0" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">U · 先完成并验证独立工作</text>
+  <text x="875.0" y="843.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">不假定待定原则的答案</text>
+  <path d="M 875 755 V 792" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="901" y="775" text-anchor="middle" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">有</text>
+  <path d="M 1050 830 H 1092 V 721 H 1053" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="1097" y="778" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">重新清点</text>
+  <rect x="700" y="905" width="350" height="75" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1" style="stroke:#534AB7;stroke-width:1;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
+  <text x="875.0" y="920.5" text-anchor="middle" dominant-baseline="middle" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:17px;font-weight:600;font-family:STHeiti">R · 汇总待定项，再讨论原则</text>
+  <text x="875.0" y="944.5" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">一次只问一个问题</text>
+  <text x="875.0" y="968.5" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:14px;font-family:STHeiti">用户确认后写入原则、恢复受影响工作</text>
+  <path d="M 700 720 H 665 V 942 H 697" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="680" y="880" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">无</text>
+  <path d="M 700 958 H 625 V 528 H 513" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="630" y="920" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">确认后</text>
+  <text x="57" y="952" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">新原则只管后续；</text>
+  <path d="M 300 893 V 1044" stroke="#73726C" stroke-width="1.6" fill="none" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="306" y="1028" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">全部就绪，才可提交</text>
+  <path d="M 315 132 L 322 136 L 315 140" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 580 132 L 587 136 L 580 140" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 845 132 L 852 136 L 845 140" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 717 197 L 710 193 L 717 189" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 171 180 L 175 173 L 179 180" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 304 328 L 300 335 L 296 328" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 304 455 L 300 462 L 296 455" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 304 565 L 300 572 L 296 565" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 304 675 L 300 682 L 296 675" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 80 496 L 87 500 L 80 504" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 304 795 L 300 802 L 296 795" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 80 518 L 87 522 L 80 526" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 690 484 L 697 488 L 690 492" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 690 510 L 697 514 L 690 518" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 879 565 L 875 572 L 871 565" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 690 606 L 697 610 L 690 614" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 879 675 L 875 682 L 871 675" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 879 785 L 875 792 L 871 785" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 1060 725 L 1053 721 L 1060 717" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 690 938 L 697 942 L 690 946" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 520 532 L 513 528 L 520 524" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 304 1037 L 300 1044 L 296 1037" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <path d="M 80 496 L 87 500 L 80 504" fill="none" stroke="#73726C" stroke-width="1.6" style="stroke:#73726C;stroke-width:1.6;fill:none;stroke-opacity:1" stroke-opacity="1" />
+  <text x="57" y="975" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:13px;font-family:STHeiti">已合并的另起一批；</text>
+  <text x="700" y="998" text-anchor="start" dominant-baseline="middle" font-size="13px" fill="#5F5E5A" font-family="STHeiti">等待确认时：新出现且已授权的独立工作 → W</text>
+  <text x="57" y="998" text-anchor="start" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">未终态 MR 继续维护。</text>
+  <path d="M 510 367 H 540" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
+  <circle cx="553" cy="367" r="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="1" />
+  <text x="553" y="367" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="600" fill="#854F0B" font-family="STHeiti">K</text>
+  <text x="580" y="367" text-anchor="start" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">远程失败 → K</text>
+  <text x="580" y="395" text-anchor="start" dominant-baseline="central" font-size="12px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">同名圆点连接到对应节点；实线为正常路径，虚线为异常 / 旁路。</text>
+  <rect x="24" y="1044" width="1112" height="2790" rx="14" fill="none" stroke="#B4B2A9" stroke-dasharray="5 5" />
+  <text x="45" y="1067" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">3 · 提交与全任务维护</text>
+  <rect x="60" y="1800" width="300" height="90" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.1" />
+  <text x="210.0" y="1813" text-anchor="middle" dominant-baseline="central" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">J / JP · 写入并核对结果</text>
+  <text x="210.0" y="1833" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">已写步骤确认，尚有待写步骤→J0</text>
+  <text x="210.0" y="1853" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">MR 含最终提交才→L；未知→K</text>
+  <rect x="420" y="1800" width="170" height="90" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.1" />
+  <text x="505.0" y="1821" text-anchor="middle" dominant-baseline="central" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">L · CI 为绿</text>
+  <text x="505.0" y="1845" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">核对当前提交</text>
+  <text x="505.0" y="1869" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">待定 / 上游红 → O</text>
+  <rect x="650" y="1800" width="180" height="90" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.1" />
+  <text x="740.0" y="1821" text-anchor="middle" dominant-baseline="central" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">M · 无冲突</text>
+  <text x="740.0" y="1845" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">与最新上游可合并</text>
+  <text x="740.0" y="1869" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">未知 / 计算中 → O</text>
+  <rect x="890" y="1800" width="200" height="90" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.1" />
+  <text x="990.0" y="1833" text-anchor="middle" dominant-baseline="central" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">N · 已提交待处理</text>
+  <text x="990.0" y="1857" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">登记全部 MR 台账</text>
+  <path d="M 360 1845 H 420" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <path d="M 590 1845 H 650" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <path d="M 830 1845 H 890" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <path d="M 210 1890 V 1912" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
+  <circle cx="210" cy="1925" r="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="1" />
+  <text x="210" y="1925" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="600" fill="#854F0B" font-family="STHeiti">K</text>
+  <path d="M 435 1890 V 1912" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
+  <circle cx="435" cy="1925" r="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="1" />
+  <text x="435" y="1925" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="600" fill="#854F0B" font-family="STHeiti">K</text>
+  <path d="M 815 1890 V 1912" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
+  <circle cx="815" cy="1925" r="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="1" />
+  <text x="815" y="1925" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="600" fill="#854F0B" font-family="STHeiti">K</text>
+  <path d="M 570 1890 V 1908" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="570" cy="1925" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="570" y="1925" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">O</text>
+  <path d="M 665 1890 V 1908" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="665" cy="1925" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="665" y="1925" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">O</text>
+  <rect x="425" y="1990" width="290" height="100" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.1" />
+  <text x="570.0" y="2016" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">回 G · 研发 / 修复</text>
+  <text x="570.0" y="2040" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">先查 J0；仅开放 MR 复用原分支</text>
+  <text x="570.0" y="2064" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">再经 H → I → T，0 修改且全就绪</text>
+  <path d="M 505 1890 V 1952 H 530 V 1990" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="452.5" y="1938" width="155" height="20" fill="white" />
+  <text x="530" y="1948" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">本 MR 的 CI 红</text>
+  <path d="M 740 1890 V 1970 H 650 V 1990" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="678.0" y="1957" width="38" height="20" fill="white" />
+  <text x="697" y="1967" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">冲突</text>
+  <path d="M 425 2040 H 12 V 500 H 90" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="760" y="1990" width="325" height="100" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1.1" />
+  <text x="922.5" y="2016" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">O · 还有可推进的工作？</text>
+  <text x="922.5" y="2040" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">优先补交 / 恢复操作 / 下一批</text>
+  <text x="922.5" y="2064" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">同名 O 接此：有工作先做</text>
+  <path d="M 990 1890 V 1990" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <path d="M 760 2040 H 715" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="726.5" y="2008" width="25" height="20" fill="white" />
+  <text x="739" y="2018" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有</text>
+  <rect x="760" y="2170" width="325" height="110" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1.1" />
+  <text x="922.5" y="2189" text-anchor="middle" dominant-baseline="central" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">V · 盘点整个任务</text>
+  <text x="922.5" y="2213" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">全部批次、源分支、MR 与未知写入</text>
+  <text x="922.5" y="2237" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">查询真实状态，不只查开放列表</text>
+  <text x="922.5" y="2261" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">核对写入覆盖，未覆盖保留待交付</text>
+  <path d="M 922 2090 V 2170" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="930.5" y="2122" width="25" height="20" fill="white" />
+  <text x="943" y="2132" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">无</text>
+  <path d="M 1085 2225 H 1099" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
+  <circle cx="1112" cy="2225" r="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="1" />
+  <text x="1112" y="2225" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="600" fill="#854F0B" font-family="STHeiti">K</text>
+  <rect x="60" y="2180" width="580" height="150" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.1" />
+  <text x="350.0" y="2207" text-anchor="middle" dominant-baseline="central" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">K · 任一远程步骤失败</text>
+  <text x="350.0" y="2231" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">Git 拉取 / 推送、MR / CI、调度均适用</text>
+  <text x="350.0" y="2255" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有限重试与退避后保存步骤、意图、确认结果或未知</text>
+  <text x="350.0" y="2279" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">保留本地改动；先做独立工作，恢复先查实际结果</text>
+  <text x="350.0" y="2303" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">同名 K 均接入；调度取消失败另走 ZF</text>
+  <path d="M 350 2330 V 2360" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="60" y="2360" width="580" height="180" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.1" />
+  <text x="350.0" y="2402" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">K0 · 有限重试后等待，禁止本轮热循环</text>
+  <text x="350.0" y="2426" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有可推进的独立工作 → O</text>
+  <text x="350.0" y="2450" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">需要安排正常等待：已有 MR 且无工作 → AC</text>
+  <text x="350.0" y="2474" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">无 MR / 调度本身失败 / 触发未知 → D0</text>
+  <text x="350.0" y="2498" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有效调度等下次；未确认触发则当前等待</text>
+  <path d="M 640 2426 H 663" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="674" cy="2426" r="11" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="674" y="2426" text-anchor="middle" dominant-baseline="central" font-size="10px" font-weight="600" fill="#444441" font-family="STHeiti">O</text>
+  <path d="M 640 2450 H 663" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="674" cy="2450" r="11" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="674" y="2450" text-anchor="middle" dominant-baseline="central" font-size="10px" font-weight="600" fill="#444441" font-family="STHeiti">AC</text>
+  <path d="M 640 2474 H 663" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="674" cy="2474" r="11" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="674" y="2474" text-anchor="middle" dominant-baseline="central" font-size="10px" font-weight="600" fill="#444441" font-family="STHeiti">D0</text>
+  <rect x="760" y="2370" width="325" height="110" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.1" />
+  <text x="922.5" y="2401" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">AA · 有可推进或待修复工作？</text>
+  <text x="922.5" y="2425" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有工作先查 J0；选分支后再修复与验收</text>
+  <text x="922.5" y="2449" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">终态 MR 记账；新增交付走 J0</text>
+  <path d="M 922 2280 V 2370" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <path d="M760 2425 H727" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="732.5" y="2392" width="25" height="20" fill="white" />
+  <text x="745" y="2402" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有</text>
+  <rect x="760" y="2570" width="325" height="160" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.1" />
+  <text x="922.5" y="2602" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">AB · 全任务可结束维护？</text>
+  <text x="922.5" y="2626" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">全部 MR 确认合并 / 关闭 / 取消</text>
+  <text x="922.5" y="2650" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">且无未提交、待定、待恢复或遗漏工作</text>
+  <text x="922.5" y="2674" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">非空完整集合；单个 MR 终态不算</text>
+  <text x="922.5" y="2698" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">流水线取消 ≠ MR 本身取消</text>
+  <path d="M 922 2480 V 2570" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="929.5" y="2518" width="25" height="20" fill="white" />
+  <text x="942" y="2528" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">无</text>
+  <rect x="60" y="2570" width="580" height="140" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.1" />
+  <text x="350.0" y="2604" text-anchor="middle" dominant-baseline="central" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">Z · 取消唯一任务级定时任务并核实</text>
+  <text x="350.0" y="2628" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">取消前后重验全部 MR 与台账，须仍满足结束条件</text>
+  <text x="350.0" y="2652" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">出现开放 MR / 新工作 → 撤销收尾回 O/V</text>
+  <text x="350.0" y="2676" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">取消 / 核实失败 → ZF；各终态分别汇报</text>
+  <path d="M 760 2650 H 700 V 2640 H 640" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="688.5" y="2607" width="25" height="20" fill="white" />
+  <text x="701" y="2617" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">是</text>
+  <path d="M 640 2587 H 657" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="674" cy="2587" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="674" y="2587" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">V</text>
+  <text x="674" y="2563" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">新工作</text>
+  <rect x="60" y="2750" width="580" height="130" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.1" />
+  <text x="350.0" y="2779" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">ZF · 取消待核实：当前执行等待恢复</text>
+  <text x="350.0" y="2803" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">不依赖旧触发；恢复先回 V 刷新全部 MR / 台账</text>
+  <text x="350.0" y="2827" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">仍满足结束条件才续接取消；有新工作回 O/V</text>
+  <text x="350.0" y="2851" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">已取消调度在再次满足 C0 时恢复唯一任务</text>
+  <path d="M 350 2710 V 2750" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="355.0" y="2720" width="38" height="20" fill="white" />
+  <text x="374" y="2730" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">失败</text>
+  <path d="M 640 2815 H 657" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="674" cy="2815" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="674" y="2815" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">V</text>
+  <text x="350" y="2900" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">恢复 → V，刷新结束条件后再决定是否取消</text>
+  <rect x="60" y="2940" width="580" height="90" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.1" />
+  <text x="350.0" y="2961" text-anchor="middle" dominant-baseline="central" font-size="17px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">本任务维护结束</text>
+  <text x="350.0" y="2985" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">关闭 / 取消不等于目标已实现</text>
+  <text x="350.0" y="3009" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">合并、关闭和取消 MR 始终由用户决定</text>
+  <path d="M 60 2650 H 42 V 2985 H 60" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <text x="225" y="2923" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">核实取消成功 → 维护结束</text>
+  <rect x="760" y="2800" width="325" height="110" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.1" />
+  <text x="922.5" y="2831" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">AC · 已有 MR 且无可推进工作？</text>
+  <text x="922.5" y="2855" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">只在此时创建 / 复用任务级调度</text>
+  <text x="922.5" y="2879" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">同一任务始终覆盖全部 MR</text>
+  <path d="M 922 2730 V 2800" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="929.5" y="2745" width="25" height="20" fill="white" />
+  <text x="942" y="2755" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">否</text>
+  <rect x="760" y="3000" width="325" height="160" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.1" />
+  <text x="922.5" y="3032" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">C0 · 创建 / 复用唯一任务级调度</text>
+  <text x="922.5" y="3056" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">周一至周五 09:00—21:00，每 30 分钟</text>
+  <text x="922.5" y="3080" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">用户时区；含 21:00，无 21:30</text>
+  <text x="922.5" y="3104" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">先查已有调度，核实生效与下次运行</text>
+  <text x="922.5" y="3128" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">任务覆盖全部 MR，不按 MR 单独创建</text>
+  <path d="M 922 2910 V 3000" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="928.5" y="2945" width="25" height="20" fill="white" />
+  <text x="941" y="2955" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">是</text>
+  <path d="M 1085 3080 H 1099" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
+  <circle cx="1112" cy="3080" r="13" fill="#FAEEDA" stroke="#854F0B" stroke-width="1" />
+  <text x="1112" y="3080" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="600" fill="#854F0B" font-family="STHeiti">K</text>
+  <rect x="60" y="3080" width="580" height="160" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.1" />
+  <text x="350.0" y="3124" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">D0 · 当前执行等待 / 有限退避恢复</text>
+  <text x="350.0" y="3148" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">尚无 MR 时不提前建调度；调度失败先核实</text>
+  <text x="350.0" y="3172" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">保存入口；恢复先查真实结果，再续接原步骤</text>
+  <text x="350.0" y="3196" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">宿主不能维持执行时，如实报告待恢复与唤醒需求</text>
+  <path d="M 760 2855 H 686 V 3160 H 640" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="656.5" y="2955" width="77" height="20" fill="white" />
+  <text x="695" y="2965" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">尚无 MR</text>
+  <rect x="60" y="3350" width="580" height="100" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1.1" />
+  <text x="350.0" y="3376" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">RT · 核对真实结果，按检查点续接</text>
+  <text x="350.0" y="3400" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">先确认服务器实际结果，再决定是否重做</text>
+  <text x="350.0" y="3424" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">不从新建 MR / 调度重新开始</text>
+  <path d="M 350 3240 V 3350" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="365.5" y="3283" width="129" height="20" fill="white" />
+  <text x="430" y="3293" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">网络 / 工具恢复</text>
+  <path d="M 350 3450 V 3490" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="60" y="3490" width="580" height="225" rx="10" fill="#F7F6F2" stroke="#B4B2A9" />
+  <text x="350" y="3515" text-anchor="middle" dominant-baseline="central" font-size="15px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">RT 分流：按保存的步骤接回原节点</text>
+  <text x="85" y="3565" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">初始同步上游</text>
+  <path d="M 255 3565 H 303" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="320" cy="3565" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="320" y="3565" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">F</text>
+  <text x="375" y="3565" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">提交 / 推送 / MR 写入</text>
+  <path d="M 545 3565 H 593" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="610" cy="3565" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="610" y="3565" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">J0</text>
+  <text x="85" y="3620" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">CI 查询</text>
+  <path d="M 255 3620 H 303" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="320" cy="3620" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="320" y="3620" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">L</text>
+  <text x="375" y="3620" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">冲突查询</text>
+  <path d="M 545 3620 H 593" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="610" cy="3620" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="610" y="3620" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">M</text>
+  <text x="85" y="3675" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">任务盘点</text>
+  <path d="M 255 3675 H 303" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="320" cy="3675" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="320" y="3675" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">V</text>
+  <text x="375" y="3675" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">调度创建 / 更新</text>
+  <path d="M 545 3675 H 593" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <circle cx="610" cy="3675" r="17" fill="#F7F6F2" stroke="#73726C" stroke-width="1" />
+  <text x="610" y="3675" text-anchor="middle" dominant-baseline="central" font-size="12px" font-weight="600" fill="#444441" font-family="STHeiti">C0</text>
+  <rect x="760" y="3270" width="325" height="90" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1.1" />
+  <text x="922.5" y="3291" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">Y · 按时触发：准备检查</text>
+  <text x="922.5" y="3315" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">保留任务，先查时段与执行权</text>
+  <text x="922.5" y="3339" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">仅通过 YG 后才能远程维护</text>
+  <path d="M 922 3160 V 3270" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="760" y="3430" width="325" height="100" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.1" />
+  <text x="922.5" y="3456" text-anchor="middle" dominant-baseline="central" font-size="15px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">YG · 允许时段且取得执行权？</text>
+  <text x="922.5" y="3480" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">工作日允许时段，含 21:00</text>
+  <text x="922.5" y="3504" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">获得任务级互斥后才进入 V</text>
+  <path d="M 922 3360 V 3430" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <path d="M 1085 3480 H 1127 V 2150 H 1000 V 2170" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="991.5" y="3388" width="77" height="20" fill="white" />
+  <text x="1030" y="3398" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">是：回 V</text>
+  <rect x="760" y="3600" width="325" height="90" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1.1" />
+  <text x="922.5" y="3621" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">Y0 · 保留任务，只结束本轮</text>
+  <text x="922.5" y="3645" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">时段外 / 未获互斥：不做远程维护</text>
+  <text x="922.5" y="3669" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">下次触发再检查，不取消调度</text>
+  <path d="M 922 3530 V 3600" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="931.5" y="3554" width="25" height="20" fill="white" />
+  <text x="944" y="3564" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">否</text>
+  <path d="M 922 3690 V 3730 H 732 V 3315 H 760" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" />
+  <rect x="870.5" y="3728" width="103" height="20" fill="white" />
+  <text x="922" y="3738" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">下次触发回 Y</text>
+  <path d="M 1050 945 H 1107 V 720 H 1050" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
+  <path d="M 1050 982 H 1148 V 2138 H 1040 V 2170" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" />
+  <rect x="736.5" y="2116" width="259" height="20" fill="white" />
+  <text x="866" y="2126" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">R：已有 MR 且暂无独立工作 → V</text>
+  <text x="60" y="3770" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">全程共用同一任务台账与执行互斥；远程写入前保存意图，恢复先核对服务器实际结果。</text>
+  <text x="60" y="3802" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有可推进工作就继续；待定原则和未知写入都保留，不能删范围制造交付或终态。</text>
+  <text x="40" y="3875" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">全程：记录每轮验收与修改文件数；证据标注实测 / 读代码 / 推断。</text>
+  <text x="40" y="3910" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">同一任务，一个调度，全部 MR；单个结束不停，全部核实且无遗漏才停止维护。</text>
+<path d="M300 1044 V1080 H585 V1100" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><rect x="370" y="1100" width="430" height="80" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.2" /><text x="585.0" y="1117.0" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">J0 · 每次 commit / push / MR 写入前</text><text x="585.0" y="1140.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">查询当前分支关联 MR、远端提交与写入结果</text><text x="585.0" y="1163.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">恢复重试也先走这里，不依赖旧记录</text><circle cx="345" cy="1140" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="345" y="1140" text-anchor="middle" dominant-baseline="central" font-size="11px" font-weight="600" fill="#73726C" font-family="STHeiti">J0</text><path d="M359 1140 H370" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><path d="M585 1180 V1220" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><rect x="370" y="1220" width="430" height="75" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.2" /><text x="585.0" y="1246.0" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">JB · 当前分支关联 MR 是什么状态？</text><text x="585.0" y="1269.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">失败 / 未知 / 关联不唯一 → K，恢复后回 J0</text><circle cx="839" cy="1140" r="14" fill="#FAEEDA" stroke="#854F0B" stroke-width="1" /><text x="839" y="1140" text-anchor="middle" dominant-baseline="central" font-size="11px" font-weight="600" fill="#854F0B" font-family="STHeiti">K</text><path d="M800 1140 H825" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" stroke-dasharray="5 5" /><rect x="55" y="1350" width="275" height="95" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.2" /><text x="192.5" y="1374.5" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">无关联 MR：首次或补交</text><text x="192.5" y="1397.5" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">使用已准备的新分支</text><text x="192.5" y="1420.5" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">核对历史与创建意图，避免重复建 MR</text><rect x="370" y="1350" width="430" height="95" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.2" /><text x="585.0" y="1374.5" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">MR 仍开放：维护原 MR</text><text x="585.0" y="1397.5" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">继续原分支、原 MR</text><text x="585.0" y="1420.5" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">远端源提交改变则先同步并重新验证</text><rect x="865" y="1340" width="240" height="115" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.2" /><text x="985.0" y="1363.0" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">JD · 已合并 / 关闭 / 取消</text><text x="985.0" y="1386.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">旧分支停止提交与推送</text><text x="985.0" y="1409.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">已授权待做或有效差异 → JE</text><text x="985.0" y="1432.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">均无 → O，不建空 MR</text><path d="M370 1257 H192 V1350" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><text x="192" y="1318" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">无关联</text><path d="M585 1295 V1350" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><text x="627" y="1320" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">仍开放</text><path d="M800 1257 H985 V1340" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><text x="985" y="1297" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">已终态</text><rect x="55" y="1530" width="745" height="130" rx="10" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="1.2" /><text x="427.5" y="1545" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">JC · 每次写入前的最终核对</text><text x="427.5" y="1568" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">无关联：去重创建新 MR；仍开放：更新原 MR</text><text x="427.5" y="1591" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">再查状态与远端提交，变化 → J0；需修复或验收失效 → G</text><text x="427.5" y="1614" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">状态一致且最终代码已验收才写入；正文自包含，网页引用核实</text><path d="M192 1445 V1490 H428 V1530" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><path d="M585 1445 V1490 H428" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><circle cx="35" cy="1585" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="35" y="1585" text-anchor="middle" dominant-baseline="central" font-size="11px" font-weight="600" fill="#73726C" font-family="STHeiti">J0</text><path d="M55 1585 H49" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><rect x="865" y="1515" width="240" height="130" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.2" /><text x="985.0" y="1534.0" text-anchor="middle" dominant-baseline="central" font-size="16px" font-weight="600" fill="#2C2C2A" font-family="STHeiti">JE · 准备新分支、新 MR</text><text x="985.0" y="1557.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">保全待做工作与未覆盖差异</text><text x="985.0" y="1580.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">最新上游；复用已完成步骤</text><text x="985.0" y="1603.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">登记新分支为“待创建 MR”</text><text x="985.0" y="1626.0" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">回 G 验收，再查新分支 J0</text><path d="M985 1455 V1515" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><text x="985" y="1485" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">有待做或差异</text><circle cx="1123" cy="1420" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="1123" y="1420" text-anchor="middle" dominant-baseline="central" font-size="11px" font-weight="600" fill="#73726C" font-family="STHeiti">O</text><path d="M1105 1420 H1109" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><path d="M428 1660 V1690 H210 V1800" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><path d="M360 1845 H390 V1705 H1135 V1475 H1080 V1455" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><text x="682" y="1728" text-anchor="middle" dominant-baseline="central" font-size="13px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">写入期间已终态且有遗漏 → JD，核对待做工作与有效差异</text><circle cx="120" cy="1925" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="120" y="1925" text-anchor="middle" dominant-baseline="central" font-size="11px" font-weight="600" fill="#73726C" font-family="STHeiti">O</text><path d="M120 1890 V1911" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><text x="410" y="1756" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">新 MR 创建成功立即登记同一台账，不等 CI；有工作先做。</text><text x="410" y="1778" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">关闭 / 取消不擅自重做；新增需求仍按 A–E 确认。</text><text x="600" y="310" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">终态 MR 的旧分支停止新增提交 / 推送 / MR 更新。</text><text x="600" y="333" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">先查 J0；新分支关联新 MR，旧 MR 终态仍保留在总台账。</text><text x="40" y="3948" text-anchor="start" dominant-baseline="central" font-size="14px" font-weight="400" fill="#5F5E5A" font-family="STHeiti">新分支登记待建 MR 后再验收；J0 使用新映射，保留前序终态，避免反复建分支。</text><circle cx="713" cy="2425" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="713" y="2425" text-anchor="middle" dominant-baseline="central" font-size="11px" font-family="STHeiti" fill="#5F5E5A" font-weight="600">J0</text><circle cx="35" cy="1618" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="35" y="1618" text-anchor="middle" dominant-baseline="central" font-size="11px" font-family="STHeiti" fill="#5F5E5A" font-weight="600">G</text><path d="M55 1618 H49" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><circle cx="839" cy="1580" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="839" y="1580" text-anchor="middle" dominant-baseline="central" font-size="11px" font-family="STHeiti" fill="#5F5E5A" font-weight="600">K</text><path d="M865 1580 H853" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /><text x="60" y="1680" text-anchor="start" dominant-baseline="central" font-size="14px" font-family="STHeiti" fill="#5F5E5A" font-weight="400">每次写入后：核对 MR 状态与目标内容覆盖；commit 后、push 前仍需重走 JC。</text><text x="210" y="1873" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="14px" fill="#5F5E5A">终态有遗漏→JD，无遗漏→O</text><text x="350" y="3541" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="13px" fill="#5F5E5A">终态后迁移：核对并复用已完成步骤 → JE</text><text x="427.5" y="1637" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="14px" fill="#5F5E5A">无关联且最终无差异：核销待建意图，登记无需提交 → O</text><circle cx="1123" cy="1626" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="1123" y="1626" text-anchor="middle" dominant-baseline="central" font-size="11px" font-family="STHeiti" fill="#5F5E5A">G</text><circle cx="300" cy="440" r="14" fill="#F7F6F2" stroke="#73726C" stroke-width="1" /><text x="300" y="440" text-anchor="middle" dominant-baseline="central" font-size="11px" font-family="STHeiti" fill="#5F5E5A">G</text><path d="M1105 1626 H1109" stroke="#73726C" stroke-width="1.6" fill="none" marker-end="url(#arrow)" /></svg>

@@ -23,7 +23,7 @@
   <text x="196" y="132" text-anchor="start" dominant-baseline="central" font-size="14px" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:14px;font-family:STHeiti">1. 围绕目标讨论原则，按原则决策，不打补丁</text>
   <text x="196" y="154" text-anchor="start" dominant-baseline="central" font-size="14px" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:14px;font-family:STHeiti">2. 不主动扩大需求范围</text>
   <text x="196" y="176" text-anchor="start" dominant-baseline="central" font-size="14px" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:14px;font-family:STHeiti">3. 不越层修改</text>
-  <text x="196" y="198" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">…… 共 8 条，完整保留编号与语义，正文自包含</text>
+  <text x="196" y="198" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">…… 共 9 条，完整保留编号与语义，正文自包含</text>
   <g>
     <rect x="40" y="336" width="130" height="84" rx="8" stroke-width="0.5" fill="#EEEDFE" stroke="#534AB7" style="stroke:#534AB7;stroke-width:0.5;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
     <text x="105" y="368" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="500" fill="#3C3489" font-family="STHeiti" style="fill:#3C3489;font-size:14px;font-weight:500;font-family:STHeiti">任务原则</text>
@@ -92,7 +92,7 @@
   <line x1="300" y1="758" x2="300" y2="914" stroke="#B4B2A9" stroke-width="0.5" fill="none" style="stroke:#B4B2A9;stroke-width:0.5;fill:none;stroke-opacity:1" stroke-opacity="1" />
   <line x1="468" y1="758" x2="468" y2="914" stroke="#B4B2A9" stroke-width="0.5" fill="none" style="stroke:#B4B2A9;stroke-width:0.5;fill:none;stroke-opacity:1" stroke-opacity="1" />
   <line x1="552" y1="758" x2="552" y2="914" stroke="#B4B2A9" stroke-width="0.5" fill="none" style="stroke:#B4B2A9;stroke-width:0.5;fill:none;stroke-opacity:1" stroke-opacity="1" />
-  <text x="196" y="223" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">技能中的必要规则写入正文，不只保留文件名。</text>
+  <text x="196" y="223" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">9. 执行过程不入产品文档，临时产物不入库。</text>
   <text x="196" y="247" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">禁止复制本机路径或技能内部相对链接。</text>
   <text x="196" y="271" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">确需引用时，核对网页目标、访问权限与锚点。</text>
   <text x="196" y="295" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">优先固定到提交；无法验证则内联必要内容。</text>
@@ -101,7 +101,7 @@
   <rect x="180" y="724" width="460" height="350" rx="8" fill="#F7F6F2" stroke="#B4B2A9" stroke-width="0.6" />
   <text x="105" y="889.0" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#993C1D">验收证据</text>
   <text x="105" y="909.0" text-anchor="middle" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#993C1D">最后一轮 0 修改</text>
-  <text x="196" y="742" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="400" fill="#2C2C2A">每轮验收逐行列出；本批无待定或未完成工作</text>
+  <text x="196" y="742" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="400" fill="#2C2C2A">仅列必要验收结论；本批无待定或未完成工作</text>
   <rect x="196" y="836" width="428" height="26" rx="0" fill="#E1F5EE" stroke="#E1F5EE" stroke-width="0.6" />
   <rect x="196" y="758" width="428" height="182" fill="none" stroke="#B4B2A9" stroke-width="0.6" />
   <line x1="196" y1="784" x2="624" y2="784" stroke="#B4B2A9" stroke-width="0.6" />
@@ -116,18 +116,18 @@
   <text x="308" y="771" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#5F5E5A">结论</text>
   <text x="476" y="771" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#5F5E5A">修改文件</text>
   <text x="560" y="771" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#5F5E5A">证据</text>
-  <text x="204" y="797" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">第 1 轮</text>
-  <text x="308" y="797" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">发现 3 处违反任务原则 2</text>
-  <text x="476" y="797" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">4</text>
-  <text x="560" y="797" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">读代码</text>
-  <text x="204" y="823" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">第 2 轮</text>
-  <text x="308" y="823" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">修复后复查 1 处</text>
-  <text x="476" y="823" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">1</text>
-  <text x="560" y="823" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">实测</text>
-  <text x="204" y="849" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#085041">第 3 轮</text>
+  <text x="204" y="797" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">文档核对</text>
+  <text x="308" y="797" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">无任务执行经过</text>
+  <text x="476" y="797" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">—</text>
+  <text x="560" y="797" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">读文</text>
+  <text x="204" y="823" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">提交核对</text>
+  <text x="308" y="823" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">无任务临时产物</text>
+  <text x="476" y="823" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">—</text>
+  <text x="560" y="823" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">差异核对</text>
+  <text x="204" y="849" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#085041">最终验收</text>
   <text x="308" y="849" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#085041">无问题</text>
   <text x="476" y="849" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#085041">0</text>
-  <text x="560" y="849" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#085041">实测</text>
+  <text x="560" y="849" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="14px" font-weight="500" fill="#085041">按实情</text>
   <text x="204" y="875" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="10px" font-weight="400" fill="#5F5E5A">lint / 类型 / 测试</text>
   <text x="308" y="875" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">全部通过</text>
   <text x="476" y="875" text-anchor="start" dominant-baseline="central" font-family="STHeiti" font-size="12px" font-weight="400" fill="#5F5E5A">—</text>

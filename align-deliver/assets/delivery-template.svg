@@ -32,7 +32,7 @@
   <rect x="180" y="336" width="460" height="84" rx="8" stroke-width="0.5" fill="#F7F6F2" stroke="#B4B2A9" style="stroke:#B4B2A9;stroke-width:0.5;fill:#F7F6F2;stroke-opacity:1" stroke-opacity="1" />
   <text x="196" y="356" text-anchor="start" dominant-baseline="central" font-size="14px" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:14px;font-family:STHeiti">兼容性、职责或权限边界</text>
   <text x="196" y="378" text-anchor="start" dominant-baseline="central" font-size="14px" fill="#2C2C2A" font-family="STHeiti" style="fill:#2C2C2A;font-size:14px;font-family:STHeiti">只列本次需求的实质约束</text>
-  <text x="196" y="400" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">不含调度、重试、分支操作或台账安排</text>
+  <text x="196" y="400" text-anchor="start" dominant-baseline="central" font-size="12px" fill="#5F5E5A" font-family="STHeiti" style="fill:#5F5E5A;font-size:12px;font-family:STHeiti">不含调度、重试、分支操作等执行安排</text>
   <g>
     <rect x="40" y="430" width="130" height="174" rx="8" stroke-width="0.5" fill="#EEEDFE" stroke="#534AB7" style="stroke:#534AB7;stroke-width:0.5;fill:#EEEDFE;stroke-opacity:1" stroke-opacity="1" />
     <text x="105" y="507" text-anchor="middle" dominant-baseline="central" font-size="14px" font-weight="500" fill="#3C3489" font-family="STHeiti" style="fill:#3C3489;font-size:14px;font-weight:500;font-family:STHeiti">批次</text>
